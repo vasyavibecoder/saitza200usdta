@@ -1,0 +1,126 @@
+SEA ASSET MANIFEST — pages 91..101
+
+/assets/styles/default_x2.css
+  pages: 100_Море_бот, 101_Подарок_Роджера, 91_Море_погода, 92_Порт_Мертвецов, 93_Острова_Сирен, 94_Ост_Индия, 95_Поклонение_невидимки, 96_Рейтинг_навыка, 97_Море_бой, 98_Море_торговцы, 99_Море_все
+  local: /assets/styles/default_x2.css
+
+/assets/icons/res/money.png
+  pages: 100_Море_бот, 101_Подарок_Роджера, 91_Море_погода, 92_Порт_Мертвецов, 93_Острова_Сирен, 94_Ост_Индия, 95_Поклонение_невидимки, 96_Рейтинг_навыка, 97_Море_бой, 98_Море_торговцы, 99_Море_все
+  local: /assets/icons/res/money.png
+
+/assets/icons/res/piastr.png
+  pages: 100_Море_бот, 101_Подарок_Роджера, 91_Море_погода, 92_Порт_Мертвецов, 93_Острова_Сирен, 94_Ост_Индия, 95_Поклонение_невидимки, 96_Рейтинг_навыка, 97_Море_бой, 98_Море_торговцы, 99_Море_все
+  local: /assets/icons/res/piastr.png
+
+/assets/icons/nav/box.jpg
+  pages: 100_Море_бот, 101_Подарок_Роджера, 91_Море_погода, 92_Порт_Мертвецов, 93_Острова_Сирен, 94_Ост_Индия, 95_Поклонение_невидимки, 96_Рейтинг_навыка, 97_Море_бой, 98_Море_торговцы, 99_Море_все
+  local: /assets/icons/nav/box.jpg
+
+/assets/icons/nav/replay.png
+  pages: 100_Море_бот, 101_Подарок_Роджера, 91_Море_погода, 92_Порт_Мертвецов, 93_Острова_Сирен, 94_Ост_Индия, 95_Поклонение_невидимки, 96_Рейтинг_навыка, 97_Море_бой, 98_Море_торговцы, 99_Море_все
+  local: /assets/icons/nav/replay.png
+
+/assets/icons/weather/1.png
+  pages: 91_Море_погода
+  local: /assets/icons/weather/1.png
+
+/assets/icons/weather/2.png
+  pages: 91_Море_погода
+  local: /assets/icons/weather/2.png
+
+/assets/icons/weather/5.png
+  pages: 91_Море_погода, 92_Порт_Мертвецов, 93_Острова_Сирен, 94_Ост_Индия, 96_Рейтинг_навыка
+  local: /assets/icons/weather/5.png
+
+/assets/icons/weather/6.png
+  pages: 91_Море_погода
+  local: /assets/icons/weather/6.png
+
+/assets/icons/weather/7.png
+  pages: 91_Море_погода
+  local: /assets/icons/weather/7.png
+
+/assets/icons/weather/3.png
+  pages: 91_Море_погода
+  local: /assets/icons/weather/3.png
+
+/assets/icons/weather/4.png
+  pages: 91_Море_погода
+  local: /assets/icons/weather/4.png
+
+/assets/icons/weather/8.png
+  pages: 91_Море_погода
+  local: /assets/icons/weather/8.png
+
+/assets/icons/nav/city.png
+  pages: 100_Море_бот, 101_Подарок_Роджера, 91_Море_погода, 92_Порт_Мертвецов, 93_Острова_Сирен, 94_Ост_Индия, 95_Поклонение_невидимки, 96_Рейтинг_навыка, 97_Море_бой, 98_Море_торговцы, 99_Море_все
+  local: /assets/icons/nav/city.png
+
+/assets/icons/nav/pirat.png
+  pages: 100_Море_бот, 101_Подарок_Роджера, 91_Море_погода, 92_Порт_Мертвецов, 93_Острова_Сирен, 94_Ост_Индия, 95_Поклонение_невидимки, 96_Рейтинг_навыка, 97_Море_бой, 98_Море_торговцы, 99_Море_все
+  local: /assets/icons/nav/pirat.png
+
+/assets/styles/ui/up.png
+  pages: 100_Море_бот, 101_Подарок_Роджера, 91_Море_погода, 92_Порт_Мертвецов, 93_Острова_Сирен, 94_Ост_Индия, 95_Поклонение_невидимки, 96_Рейтинг_навыка, 97_Море_бой, 98_Море_торговцы, 99_Море_все
+  local: /assets/styles/ui/up.png
+
+/assets/icons/nav/wargame.jpg
+  pages: 92_Порт_Мертвецов
+  local: /assets/icons/nav/wargame.jpg
+
+/assets/icons/nav/trader.jpg
+  pages: 92_Порт_Мертвецов
+  local: /assets/icons/nav/trader.jpg
+
+/assets/icons/nav/all.jpg
+  pages: 92_Порт_Мертвецов
+  local: /assets/icons/nav/all.jpg
+
+/assets/icons/nav/rojer_gift.jpg
+  pages: 92_Порт_Мертвецов
+  local: /assets/icons/nav/rojer_gift.jpg
+
+/assets/icons/nav/home.jpg
+  pages: 92_Порт_Мертвецов, 93_Острова_Сирен, 94_Ост_Индия, 96_Рейтинг_навыка
+  local: /assets/icons/nav/home.jpg
+
+/assets/icons/base/dir.png
+  pages: 100_Море_бот, 101_Подарок_Роджера, 92_Порт_Мертвецов, 93_Острова_Сирен, 94_Ост_Индия, 95_Поклонение_невидимки, 96_Рейтинг_навыка, 97_Море_бой, 98_Море_торговцы, 99_Море_все
+  local: /assets/icons/base/dir.png
+
+/assets/icons/sex/man_off.png
+  pages: 92_Порт_Мертвецов
+  local: /assets/icons/sex/man_off.png
+
+/assets/img/wargames.jpg
+  pages: 93_Острова_Сирен, 94_Ост_Индия, 96_Рейтинг_навыка
+  local: /assets/img/wargames.jpg
+
+/assets/icons/trader.png
+  pages: 93_Острова_Сирен, 94_Ост_Индия, 96_Рейтинг_навыка
+  local: /assets/icons/trader.png
+
+/assets/icons/nav/more_rait.png
+  pages: 93_Острова_Сирен, 94_Ост_Индия, 96_Рейтинг_навыка
+  local: /assets/icons/nav/more_rait.png
+
+/assets/icons/nav/invis.png
+  pages: 93_Острова_Сирен, 94_Ост_Индия, 96_Рейтинг_навыка
+  local: /assets/icons/nav/invis.png
+
+/assets/icons/nav/maps.png
+  pages: 93_Острова_Сирен, 94_Ост_Индия, 96_Рейтинг_навыка
+  local: /assets/icons/nav/maps.png
+
+/assets/icons/info.png
+  pages: 93_Острова_Сирен, 94_Ост_Индия, 96_Рейтинг_навыка
+  local: /assets/icons/info.png
+
+/assets/img/invis2.jpg
+  pages: 95_Поклонение_невидимки
+  local: /assets/img/invis2.jpg
+
+/assets/img/crashed.jpg
+  pages: 100_Море_бот, 101_Подарок_Роджера, 97_Море_бой, 98_Море_торговцы, 99_Море_все
+  local: /assets/img/crashed.jpg
+

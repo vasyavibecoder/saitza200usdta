@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Море — Пираты</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/sea.css">
+</head>
+<body class="sea-page">
+  <div class="sea-layout">
+    <div class="sea-top">
+      <button class="but" data-action="backCity">← Город</button>
+      <strong>🌊 МОРЕ</strong>
+      <span id="seaPlayerName"></span>
+    </div>
+
+    <div class="sea-map" id="seaMap">
+      <div class="sea-hud">
+        ⚔ <span id="seaPower">0</span>
+        &nbsp; ❤️ <span id="seaHp">0</span>
+        &nbsp; 💰 <span id="seaGold">0</span>
+      </div>
+
+      <div class="sea-weather">
+        <img id="seaWeatherIcon" src="./assets/icons/weather/5.png" alt="Погода">
+      </div>
+
+      <img id="seaPlayer" class="sea-player"
+           src="./assets/icons/nav/pirat.png" alt="Игрок">
+
+      <div id="seaObjects"></div>
+
+      <div class="sea-controls">
+        <button class="but" data-move="up">↑</button>
+        <button class="but" data-move="left">←</button>
+        <button class="but" data-move="down">↓</button>
+        <button class="but" data-move="right">→</button>
+      </div>
+    </div>
+
+    <div class="sea-actions">
+      <button class="but" data-sea-action="trader">⚓ Торговец</button>
+      <button class="but" data-sea-action="bot">☠ Бот</button>
+      <button class="but" data-sea-action="treasure">💎 Сокровище</button>
+      <button class="but" data-sea-action="invisible">👻 Невидимость</button>
+      <button class="but" data-sea-action="weather">🌤 Погода</button>
+      <button class="but" data-sea-action="all">🗺 Все</button>
+      <button class="but" data-sea-action="crashed">💥 Крушение</button>
+      <button class="but" data-sea-action="rojer">🎁 Роджер</button>
+    </div>
+  </div>
+
+  <script src="./js/core/storage.js"></script>
+  <script src="./js/core/player.js"></script>
+  <script src="./js/sea/sea.js"></script>
+  <script src="./js/sea/sea-battle.js"></script>
+  <script src="./js/sea/sea-events.js"></script>
+</body>
+</html>

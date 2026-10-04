@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Онлайн игра Пираты</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">☠ ПИРАТЫ</div>
+      <div id="playerSummary" class="player-summary">Гость</div>
+    </header>
+
+    <main id="screen" class="screen">
+      <section id="authScreen" class="panel auth-panel">
+        <h1>Онлайн игра «Пираты»</h1>
+        <p>Локальная браузерная версия для GitHub Pages.</p>
+        <div class="auth-actions">
+          <button class="but" data-open="loginModal">Войти</button>
+          <button class="but primary" data-open="registerModal">Регистрация</button>
+        </div>
+      </section>
+
+      <section id="cityScreen" class="hidden">
+        <div class="panel">
+          <div class="city-title">
+            <div>
+              <h1 id="cityName">Город Толедо</h1>
+              <small id="cityTime"></small>
+            </div>
+            <button class="but danger" data-action="logout">Выйти</button>
+          </div>
+
+          <div class="stats-grid">
+            <div>⚔ Мощность <b id="player-power">0</b></div>
+            <div>❤️ HP <b id="player-hp">0</b></div>
+            <div>💰 Золото <b id="player-gold">0</b></div>
+            <div>💎 Пиастры <b id="player-piastr">0</b></div>
+            <div>🚢 Корабль <b class="player-ship-name">—</b></div>
+            <div>⭐ Уровень <b id="player-level">1</b></div>
+          </div>
+
+          <div class="menu-grid">
+            <button class="menu-card" data-action="openSea">🌊<span>Море</span></button>
+            <button class="menu-card" data-action="openProfile">👤<span>Профиль</span></button>
+            <button class="menu-card" data-action="openFishing">🎣<span>Рыбалка</span></button>
+            <button class="menu-card" data-action="openMining">⛏️<span>Рудник</span></button>
+            <button class="menu-card" data-action="openMarket">💰<span>Рынок</span></button>
+            <button class="menu-card" data-action="openQuests">📜<span>Квесты</span></button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="modalRoot"></div>
+
+  <script src="./js/core/storage.js"></script>
+  <script src="./js/core/player.js"></script>
+  <script src="./js/core/modals.js"></script>
+  <script src="./js/systems/fishing.js"></script>
+  <script src="./js/systems/mining.js"></script>
+  <script src="./js/systems/market.js"></script>
+  <script src="./js/systems/quests.js"></script>
+  <script src="./js/sea/sea.js"></script>
+  <script src="./js/sea/sea-battle.js"></script>
+  <script src="./js/sea/sea-events.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
